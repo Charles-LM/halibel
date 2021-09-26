@@ -66,38 +66,50 @@ li, a {
     color: white;
 }
 
-
-
-
-
 .second{
     background-color: white;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.secondcontainer{
+    align-items: center;
 }
 
 .secondtitle{
-    width: 100%;
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    
+    margin: 20px;
+    text-align: center;
+}
+
+.imgcontainer{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
 
 }
 
 .third{
     display: flex;
-    background-color: red
+    background-color: #E5E7EB;
+    justify-content: center;
 
 }
 
 
 img{
-    width: 300px;
+    width: 150px;
     height: auto;
+    border-radius: 8px;
 }
 
 .mainp img{
-    width: 300px;
+    width: 350px;
     height: auto;
     margin: 24px;
 }
