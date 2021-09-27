@@ -99,18 +99,23 @@ li, a {
     flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
+    align-items: center;
 }
 
 .thirdtext{
     font-size: 24px;
     max-width: 400px;
-    padding: 60px;
+    padding-top: 60px;
     text-align: center;
 
 }
 b{
     text-align: center;
     padding-bottom: 0px;
+    position: relative;
+    right: -161px;
+    padding-top: 20px;
+    padding-bottom: 50px;
  
 }
 
