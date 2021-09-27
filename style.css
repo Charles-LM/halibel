@@ -40,18 +40,38 @@
     color: #F9FAF8;
 }
 
-.innerfc {
+.innerfic {
     display: flex;
     flex: 1;
     flex-direction: column;
     max-width: 400px;
     gap: 16px;
+
+}
+
+.innerfoc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 0px;
+    margin: 0px;
+    gap: 8px;
+
 }
 
 button{
     max-width: 90px;
     background-color: #3882f6;
     border: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.altbutton button{
+    max-width: 90px;
+    background-color: white;
+    border-color: red;
     border-radius: 8px;
     padding: 8px;
 }
@@ -119,6 +139,40 @@ b{
  
 }
 
+.fourth {
+    display: flex;
+    flex: 1;
+    background-color: white;
+
+}
+
+.fourthcontainer{
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.fourthtitle{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 1000;
+
+
+}
+
+.fourthtext{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
 
 
 
@@ -126,6 +180,14 @@ img{
     width: 150px;
     height: auto;
     border-radius: 8px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
 }
 
 .mainp img{
